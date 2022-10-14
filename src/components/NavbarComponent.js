@@ -22,8 +22,9 @@ function NavbarComponent() {
           className="text-white"
           aria-controls="basic-navbar-nav"
         />
+
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto text-white">
+          <Nav className="me-auto text-white" style={{ paddingLeft: "5rem" }}>
             <Nav.Link href="#home" className=" text-white">
               All Capsules
             </Nav.Link>
