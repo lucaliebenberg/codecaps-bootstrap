@@ -1,6 +1,5 @@
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
-// import { FaRegQuestionCircle } from "react-icons/fa";
 
 function CardComponent(props) {
   return (
@@ -10,7 +9,7 @@ function CardComponent(props) {
           width: "24rem",
           height: "10rem",
           marginRight: "0.25rem",
-          marginBottom: "0.25rem"
+          marginBottom: "0.25rem",
         }}
       >
         <Card.Body>
